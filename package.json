@@ -1,0 +1,30 @@
+{
+  "name": "github-oauth2",
+  "version": "0.0.0",
+  "description": "Example github oauth2",
+  "main": "server.js",
+  "scripts": {
+    "start": "grunt dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alyssaq/github-oauth2.git"
+  },
+  "author": "Alyssa Quek",
+  "license": "BSD",
+  "dependencies": {
+    "express": "3.4.0",
+    "simple-oauth2": "~0.1.7"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "load-grunt-config": "0.5.0",
+    "grunt-express": "1.2.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
