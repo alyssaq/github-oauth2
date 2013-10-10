@@ -17,10 +17,10 @@ app.get('/', function(req, response){
 app.get('/done', function(req, response){
   response.send(fs.readFileSync('src/done.html').toString());
 });
-/*
+
 var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
-*/
-module.exports = app;
+
+//module.exports = app;

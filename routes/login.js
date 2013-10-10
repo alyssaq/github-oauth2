@@ -1,7 +1,7 @@
 // Set the client credentials and the OAuth2 server
 var credentials = {
-  clientID: '5d55f8b2c81b86fc413c',
-  clientSecret: 'f816768d68ca421eef677743218db6e768bc93f688',
+  clientID: 'a6309b6d72882c4dcc2e',
+  clientSecret: '80b185e7366ed00bfcdfce94590e48922f865f38',
   site: 'https://github.com/login',
   tokenPath: '/oauth/access_token'
 };
@@ -13,7 +13,7 @@ var OAuth2 = require('simple-oauth2')(credentials);
 
 // Authorization uri definition
 var authorization_uri = OAuth2.AuthCode.authorizeURL({
-  redirect_uri: 'http://localhost:3000/done',
+  redirect_uri: 'http://github-oauth2.herokuapp.com/done',
   scope: 'repo',
   state: '3(#0/!~'
 });
